@@ -1,0 +1,1 @@
+Notes of the book called `Designing Data Intensive Applications`  by Martin Klepman 

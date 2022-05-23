@@ -1,0 +1,1 @@
+Notes of Udemy Course `Fundamentals of Database Engineering`  by Hussein Nazzer
