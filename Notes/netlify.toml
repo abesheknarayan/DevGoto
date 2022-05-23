@@ -13,7 +13,7 @@ LANDING_PAGE = "home"
 LANDING_TITLE = "Hi this is Abeshek's Second 🧠"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
-REPO_URL = "https://github.com/abesheknarayan/DevGoto"
+REPO_URL = "https://github.com/abesheknarayan/DevGoto/tree/main/Notes"
 # (Optional) Site title in navbar
 SITE_TITLE = "Abeshek's Second 🧠"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
