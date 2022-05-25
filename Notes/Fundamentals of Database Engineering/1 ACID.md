@@ -1,4 +1,3 @@
-## ACID Properties
 - [[#Atomicity]]
 - [[#Isolation]]
 - [[#Consistency]]

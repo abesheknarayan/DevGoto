@@ -1,4 +1,3 @@
-## Data Model and Query Languages
 
 __ORM__ : Object-relational mapping - serves as a layere of abstraction between object oriented programming paradigms and relational database systems.
 
@@ -42,7 +41,7 @@ Subject ---> Object , _predicate_ is the info on the edge.
 
 ![[triple-stores.png]]
 
-Same [[2. Data Models and Query Languages#^dd6cdc]] in sparkQL
+Same [[2 Data Models and Query Languages#^dd6cdc]] in sparkQL
 
 ![[sparql.png]]
 

@@ -1,5 +1,3 @@
-## Understanding Database Internals
-
 #### Storage Concepts
 - Table
 - [[#Row_ID]]
@@ -31,7 +29,7 @@
 
 ##### Index Data Structure
 - Data structure which points to the heap
-- Refer to [[3. Storage and Retrieval]] for more info on indexing and how its done.
+- Refer to [[3 Storage and Retrieval]] for more info on indexing and how its done.
 - Index tells exactly in which page the data is present.
 - Index is also stored as pages in disk.
 - Each index for a primary key (ex) has pointer to the page in which the row is present in the heap.
@@ -52,14 +50,14 @@
 - Tables are stored as columns first in disk.
 - Each page will contain only a specific column
 - A single IO read to the table fetches multiple columns / pages with all matching rows
-- Mainly used for [[3. Storage and Retrieval#Transaction Processing or Analytics|OLAP]] where aggregate functions are used mainly.
+- Mainly used for [[3 Storage and Retrieval#Transaction Processing or Analytics|OLAP]] where aggregate functions are used mainly.
 - Each column's value for a row will be tagged along with its primary key. Ex: (firstname,id) , (lastname,id) where firstname and lastname are secondary columns and id is primary key. 
-- [[3. Storage and Retrieval#Aggregation Data Cubes and Materialized Views|Aggregations]]
+- [[3 Storage and Retrieval#Aggregation Data Cubes and Materialized Views|Aggregations]]
 
 #### Primary vs Secondary Index
 ##### Primary Index
 - Heap itself is __organized__ around that index
-- Called as _clustering index_. Refer [[3. Storage and Retrieval#Secondary Index|clustered index]].  
+- Called as _clustering index_. Refer [[3 Storage and Retrieval#Secondary Index|clustered index]].  
 
 ##### Secondary Index
 - Not organized around anything.

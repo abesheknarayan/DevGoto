@@ -1,4 +1,3 @@
-## Storage and Retrieval
 #### A simple Append-Only log db
 - Each (key, value) inserts are appended in a static file
 - While searching, the last value corresponding to key is returned

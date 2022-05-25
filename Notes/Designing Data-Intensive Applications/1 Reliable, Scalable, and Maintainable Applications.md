@@ -1,5 +1,3 @@
-## Reliable, Scalable and Maintainable Applications
-
 3 important characteristics
 - Reliability
 - Maintainability
